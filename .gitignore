@@ -1,0 +1,6 @@
+.nrepl-history
+.nrepl-port
+.project
+.cpcache
+.calva/output-window/
+.clj-kondo/.cache

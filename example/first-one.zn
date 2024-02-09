@@ -1,0 +1,29 @@
+def a 10
+
+def b "string"
+
+def c \c
+
+def edn:
+    {:a 10
+     :b 20
+     :vec [1 2 3 4]
+     :list (1 2 3 4)
+     :some-other-key 150}
+
+defn sum(a, b):
+    call + a b
+
+defn pointless():
+    call / 10 3
+    resolve c
+    ret call sum 1 2
+
+defn fizz-buzz(n):
+    call pointless
+    if (= (mod n) 15)
+        "fizzbuzz"
+    else if (= (mod n) 3)
+        "fizz"
+    else if (= (mod n) 5)
+        "bazz"
